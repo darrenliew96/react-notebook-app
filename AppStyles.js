@@ -23,8 +23,10 @@ const styles = StyleSheet.create({
       borderRadius: 30,
     },
   
-    tasksWrapper: {
+    titleWrapper: {
       paddingTop: 60,
+      marginHorizontal: 30,
+      flexDirection: "row",
     },
   
     sectionTitle: {
@@ -38,12 +40,12 @@ const styles = StyleSheet.create({
       fontWeight: "bold",
     },
   
-    writeTaskWrapper: {
+    writeInputWrapper: {
       position: "absolute",
       bottom: 60,
       width: "100%",
       flexDirection: "row",
-      justifyContent: "space-between",
+      justifyContent: "center",
       alignItems: "center",
     },
   
@@ -67,6 +69,13 @@ const styles = StyleSheet.create({
       borderColor: "#c0c0c0",
       borderWidth: 1,
       textAlign: "center",
+    },
+    resetWrapper: {
+      width: 30,
+      height: 30,
+      marginLeft: 20,
+      justifyContent: "center",
+      alignItems: "center",
     },
   });
   
